@@ -1,5 +1,5 @@
 // ⚠️ Substitua 'SUA_API_KEY' pela sua chave OpenAI
-const API_KEY = "SUA_API_KEY";
+const API_KEY = "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";
 
 async function gerarPost() {
     const prompt = document.getElementById("prompt").value;
