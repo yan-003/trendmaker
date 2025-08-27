@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendMaker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TrendMaker</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Templates</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gerar-post">
+            <h2>Crie posts, artes e vídeos em segundos</h2>
+            <textarea id="prompt" placeholder="Digite o tema do seu post..."></textarea>
+            <button onclick="gerarPost()">Gerar Post</button>
+            <div id="resultadoText"></div>
+        </section>
+
+        <section class="gerar-imagem">
+            <h2>Gerar imagem para o post</h2>
+            <textarea id="promptImagem" placeholder="Descreva a imagem..."></textarea>
+            <button onclick="gerarImagem()">Gerar Imagem</button>
+            <img id="imagemPost" src="" alt="">
+        </section>
+    </main>
+
+    <footer>
+        <p>TrendMaker &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
