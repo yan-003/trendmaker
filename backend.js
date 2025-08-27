@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const API_KEY = "SUA_CHAVE_OPENAI_AQUI"; // Coloque aqui sua chave OpenAI
+const API_KEY = "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"; // Coloque aqui sua chave OpenAI
 
 app.post('/gerar-texto', async (req, res) => {
     const { prompt } = req.body;
